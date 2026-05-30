@@ -1,7 +1,17 @@
 # vpn-sell-bot
 
-Telegram-бот для продажи доступа к VLESS VPN. Оплата через CryptoBot (Crypto Pay API).
+FOR API https://github.com/h1gurodev/h1cloud-vless
 
+FOR API https://github.com/h1gurodev/h1cloud-vless
+
+FOR API https://github.com/h1gurodev/h1cloud-vless
+
+FOR API https://github.com/h1gurodev/h1cloud-vless
+
+
+FOR API https://github.com/h1gurodev/h1cloud-vless
+Telegram-бот для продажи доступа к VLESS VPN. Оплата через CryptoBot (Crypto Pay API).
+FOR API https://github.com/h1gurodev/h1cloud-vless
 ## Стек
 
 - Python 3.11+
