@@ -83,36 +83,6 @@ python bot.py
 - рассылка;
 - проверка VPN API и Crypto Pay.
 
-## VPN API
-
-Бот ожидает HTTP API со следующими методами:
-
-- `POST /create` с телом `{ "name": "...", "days": 30 }` - создать клиента;
-- `PATCH /edit` с телом `{ "name": "...", "days": 30 }` - продлить клиента;
-- `GET /info?name=...` - получить данные клиента;
-- `GET /clients` - получить список клиентов;
-- `DELETE /clients/<name>` - удалить клиента.
-
-Ответ `GET /info` должен содержать:
-
-- `subscription_url`;
-- `links.ws`;
-- `links.reality`;
-- `expires_at`;
-- `left_days`.
-
-## Безопасность
-
-Не загружайте в GitHub:
-
-- `.env`;
-- `bot.db`;
-- `.venv`;
-- `__pycache__`;
-- любые токены и реальные базы.
-
-Эти файлы уже закрыты в `.gitignore`.
-
 ## Лицензия
 
 MIT
